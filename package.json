@@ -1,0 +1,24 @@
+{
+  "name": "lothar-command-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feather-team/lothar-command-init.git"
+  },
+  "keywords": [
+    "lothar",
+    "feather2",
+    "blade"
+  ],
+  "author": "jsyczhanghao@sina.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feather-team/lothar-command-init/issues"
+  },
+  "homepage": "https://github.com/feather-team/lothar-command-init#readme"
+}

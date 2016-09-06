@@ -1,0 +1,9 @@
+footer{
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+    font-size: 14px;
+    font-family: consolas;
+    position: fixed;
+    bottom: 0px;
+}
