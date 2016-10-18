@@ -116,7 +116,7 @@ function create(root, config){
     var vendorDir = __dirname + '/vendor';
 
     feather.util.find(vendorDir).forEach(function(file){
-    	if(config.modulename != 'common' && file.indexOf('data/_global_.php') > -1){
+    	if(config['project.modulename'] != 'common' && file.indexOf('data/_global_.php') > -1){
     		return;
     	}
 

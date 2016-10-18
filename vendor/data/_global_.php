@@ -1,3 +1,5 @@
 <?php
 //全局通用数据
-return array();
+return array(
+    'name' => 'lothar'
+);
