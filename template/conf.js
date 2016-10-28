@@ -1,4 +1,4 @@
-feather.config.merge({
+lothar.config.merge({
     project: {
         name: '${project.name}',
         modulename: '${project.modulename}'
