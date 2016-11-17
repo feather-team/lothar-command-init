@@ -30,15 +30,11 @@ exports.run = function(argv, cli, env){
     }
 
     var i = 0, config = {};
-    var x = Path.basename(root).split('-');
+    //var x = Path.basename(root).split('-');
     var defaultName, defaultModule;
 
     do{
-    	if(x.length > 1){
-	    	defaultModule = x.pop();
-	    	defaultName = x.pop();
-	    	break;
-	    }else if(argv.module || argv.m){
+    	if(argv.module || argv.m){
 	    	defaultName = Path.basename(Path.dirname(root));
 	    	defaultModule = Path.basename(root);
 	    	break;
